@@ -12,5 +12,6 @@ fn main(){
             "d": "a"
         }
     };
-    print!("{:?}", a)
+    println!("org: \n{}\n\n", a);
+    println!("dbg: \n{:?}", a);
 }
